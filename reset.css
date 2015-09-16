@@ -1,62 +1,60 @@
 @charset "utf-8";
-/**
-    Reset v1.2 | (c) 2010 - 2014
-    Estefanio NS <estefanions@gmail.com>
-    https://github.com/estefanions/resetcss
+
+/*
+ * -------------------------------------------------
+ * resetcss
+ * -------------------------------------------------
+ * Estefanio NS <estefanions AT gmail DOT com>
+ * https://github.com/estefanions/resetcss
  */
 
-    *{text-align: left;font-weight: normal;font-size: 100%;
+*{
+    text-align: left;font-weight: normal;font-size: 100%;
     vertical-align: baseline;list-style: none;text-decoration: none;
     outline:0;margin:0;padding:0;border:0 none;font-style: normal;
-    vertical-align: top; background:transparent}
+    border-spacing: 0;border-collapse: collapse;vertical-align: top;
+    quotes: none; content: '';content: none;background:transparent;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 
-    /*
-     * 1. Set default font family to sans-serif.
-     * 2. Prevent iOS text size adjust after orientation change, without disabling
-     * -. User zoom.
-    */
+}
 
-    html {
-    font-family: sans-serif; /* 1 */
-    -ms-text-size-adjust: 100%; /* 2 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-    }
+figcaption,figure,footer,article,aside,details,
+menu,nav,section,header,hgroup,hr{ display: block}
+hr{
+    height:1px;
+    border-top:1px solid;
+    margin:1em 0
+}
+input,select,textarea { vertical-align: middle}
+button, input {
+    *overflow: visible;
+    line-height: normal
+}
+button, html input[type="button"],
+html input[type="reset"], html input[type="submit"]
+{ 
+    cursor: pointer; 
+    -webkit-appearance: button
+}
 
-    blockquote, q {quotes: none}
-    blockquote:before, blockquote:after, q:before, q:after {content: '';content: none}
-    table {border-collapse: collapse;border-spacing: 0}
+select,button,input[type="button"],input[type="reset"],
+input[type="submit"],input[type="radio"],
+input[type="checkbox"] { cursor: pointer}
+input[type="search"] { 
+    -webkit-box-sizing: content-box; 
+    -moz-box-sizing: content-box;
+    box-sizing: content-box; 
+    -webkit-appearance: textfield
+}
+input[type="search"]::-webkit-search-decoration, 
+input[type="search"]::-webkit-search-cancel-button {
+-webkit-appearance: none
+} 
+textarea {overflow: auto; vertical-align: top}
+fieldset { 
+    border: 1px solid; margin: 0 2px; 
+    padding: 0.35em 0.625em 0.75em 
+}
 
-    /*Correct `block` display not defined in IE 8/9.*/
-    figcaption,figure,footer,article,aside,details,menu,nav,section,
-    header,hgroup,hr, main, summary{ display: block}
-
-    /* Correct `inline-block` display not defined in IE 8/9.*/
-    audio,canvas,video {display: inline-block}
-
-    hr{height:1px;border-top:1px solid;margin:1em 0}
-    input,select,textarea { vertical-align: middle}
-    button, input {*overflow: visible;line-height: normal}
-    button, html input[type="button"],input[type="reset"],input[type="submit"] {
-    cursor: pointer; -webkit-appearance: button}
-
-    select,button,input[type="button"],input[type="reset"],
-    input[type="submit"],input[type="radio"],input[type="checkbox"] { cursor: pointer}
-    input[type="search"] { -webkit-box-sizing: content-box; -moz-box-sizing: content-box;
-    box-sizing: content-box; -webkit-appearance: textfield}
-    input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-cancel-button {
-    -webkit-appearance: none} textarea {overflow: auto; vertical-align: top}
-
-    button::-moz-focus-inner,input::-moz-focus-inner {border: 0;padding: 0}
-
-    /*Address box sizing set to `content-box` in IE 8/9/10.*/
-    input[type="checkbox"], input[type="radio"] {box-sizing: border-box}
-
-    /*
-     * 1. Remove default vertical scrollbar in IE 8/9.
-     * 2. Improve readability and alignment in all browsers.
-    */
-
-    textarea {
-    overflow: auto; /* 1 */
-    vertical-align: top; /* 2 */
-    }
