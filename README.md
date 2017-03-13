@@ -1,4 +1,4 @@
-Reset CSS
+CSS Reset
 ========
  My style mixed with the suggestion of [Eric Meyer CSS reset](http://meyerweb.com/eric/tools/css/reset/) and [Yahoo! (YUI 3) Reset CSS](http://cssreset.com/scripts/yahoo-css-reset-yui-3/)
 
@@ -7,7 +7,7 @@ Reset CSS
 
 /*
  * -------------------------------------------------
- * resetcss
+ * css-reset
  * -------------------------------------------------
  * Estefanio NS <estefanions AT gmail DOT com>
  * https://github.com/estefanions/resetcss
@@ -39,42 +39,42 @@ body{
 
 u, s, del, ins, strike,
 a, a:link, a:visited, a:hover, a:active
-{ 
+{
     text-decoration: none
 }
 
 figcaption,figure,footer,article,aside,details,
-menu,nav,section,header,hgroup,hr{ 
+menu,nav,section,header,hgroup,hr{
     display: block
 }
 
-hr{ 
+hr{
     height:1px; border-top:1px solid; margin:1em 0 
 }
 
-input,select,textarea { 
+input,select,textarea {
     vertical-align: middle
 }
 
-button, input { 
+button, input {
     *overflow: visible; line-height: normal 
 }
 
 button, html input[type="button"],
 html input[type="reset"], 
 html input[type="submit"]
-{ 
+{
     cursor: pointer; 
     -webkit-appearance: button
 }
 
 select,button,input[type="button"],input[type="reset"],
 input[type="submit"],input[type="radio"],
-input[type="checkbox"] { 
+input[type="checkbox"] {
     cursor: pointer
 }
 
-input[type="search"] { 
+input[type="search"] {
     -webkit-box-sizing: content-box; 
     -moz-box-sizing: content-box;
     box-sizing: content-box; 
@@ -90,25 +90,25 @@ textarea {
     overflow: auto; vertical-align: top
 }
 
-fieldset { 
+fieldset {
     border: 1px solid; margin: 0 2px; 
     padding: 0.35em 0.625em 0.75em 
 }
 
-ol, ul { 
+ol, ul {
     list-style: none 
 }
 
-blockquote, q { 
+blockquote, q {
     quotes: none 
 }
 
 blockquote:before, blockquote:after,
-q:before, q:after { 
+q:before, q:after {
     content: ''; content: none; 
 }
 
-table { 
+table {
     border-collapse: collapse; border-spacing: 0 
 }
 
@@ -116,15 +116,15 @@ form label{
     cursor: pointer
 }
 
-fieldset,img { 
+fieldset, img {
     border: 0 none 
 }
 
-caption,th { 
+caption, th {
     text-align: left 
 }
 
-:focus { 
+:focus {
     outline: 0 
 }
 
