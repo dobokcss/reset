@@ -10,7 +10,7 @@ CSS Reset
  * css-reset
  * -------------------------------------------------
  * Estefanio NS <estefanions AT gmail DOT com>
- * https://github.com/estefanions/resetcss
+ * https://github.com/estefanions/css-reset
  */
 
 html, body, div, span, applet, object, iframe,
@@ -138,7 +138,7 @@ caption, th {
  * resetcss
  * -------------------------------------------------
  * Estefanio NS <estefanions AT gmail DOT com>
- * https://github.com/estefanions/resetcss
+ * https://github.com/estefanions/css-reset
  */
 
 
