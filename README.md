@@ -11,7 +11,7 @@ Reset CSS
  * Dobok Reset CSS
  * -------------------------------------------------
  * Estefanio NS <estefanions AT gmail DOT com>
- * https://github.com/dobokcss/resetcss
+ * https://github.com/dobokcss/reset
  * version: 0.3.0
  */
 
@@ -27,7 +27,7 @@ Reset CSS
  * Dobok Reset CSS
  * -------------------------------------------------
  * Estefanio NS <estefanions AT gmail DOT com>
- * https://github.com/dobokcss/resetcss
+ * https://github.com/dobokcss/reset
  * version: 0.3.0
  */
 
