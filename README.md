@@ -1,7 +1,9 @@
 Reset CSS
 =============================================
 
- My style mixed with the suggestion of [Eric Meyer CSS reset](http://meyerweb.com/eric/tools/css/reset/) and [Yahoo! (YUI 3) Reset CSS](http://cssreset.com/scripts/yahoo-css-reset-yui-3/)
+ My style mixed with the suggestion of:
+ - [Eric Meyer CSS reset](https://gist.github.com/estefanionsantos/2426764bc778d41826fecdbb8baa3377) 
+ - [Yahoo! (YUI 3) Reset CSS](https://gist.github.com/estefanionsantos/881c70c38607c433f0b6d8210b2d0e05)
 
 #### Minified
 
